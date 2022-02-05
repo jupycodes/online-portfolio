@@ -5,44 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Online Portfolio</h1>
+    <h1>Cristina Sabo's Online Portfolio</h1>
 
-    <p></p>
+    <p>Hi there! Welcome to my portfolio, I'm so glad you took the time to check out some of my previous projects. Before we dive in, I'd like to give you an opportunity to get to know me a litte better</p>
+    
+    <h3>Activities</h3>
 
-    <img src="An image of me" alt="Stunning image of beautiful woman">
+    <p>I was born January 5th on a cold winter day which might help to explain my love for winter sports. I'm an avid skier who loves getting out to the mountains as often as I can. My favourite days are spent in the backcountry, ski touring or perhaps heli-skiing (if strategically timed around a recent Christmas bonus lol). During summer months, I make-do with downhill mountain biking and any other adrenaline-boosting activities that come my way.</p>
 
-    <p></p>
+    <h3>Education</h3>
 
-    <h2>Cristina Sabo</h2>
+    <p>I graduated from U of S with a degree in Chemical Engineering and am currently working through a web development bootcamp offered through the U of C.</p>
     
-    <h3>About Me</h3>
+    <h3>Current Job</h3>
     
-    <div class="about-me">
-        insert paragraph DOB, education, current job, activities, languages
-    </div>
-    
-    <h3>Past Projects</h3>
-    
-    <div class="projects"> List projects, add buttons with links</div>
-    
+    <p>I currently work as a Sustainability Engineer in the oil and gas industry, finding creative solutions to reduce my company's greenhouse gas emissions.</p>
+
     <h3>Languages</h3>
-    
-    <ul>Languages</ul>
-    
 
-    <h3>Courses</h3>
-    <ol>List of courses</ol>
-    
-    
-    <!-- create web form -->
-    
+    <p>I'm quite multilingual. Luckily for me, I learnt from a young age to speak English, Romanian, and Hungarian which has helped me later in life as I learnt French and Spanish. It's also been pretty helpful now as I learn to code in Javascript, Ruby, Python, and HTML/CSS.</p>
 
+    <h3>Coding Projects</h3>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Link to Project</th>
+        </tr>
+        <tr>
+            <td>Personal Website</td>
+            <td>A personal website practicing HTML and CSS through the RoboGarden Full Stack Bootcamp</td>
+            <td><a href="google.com" class="button">view</a></td>
+        </tr>
+        <tr>
+            <td>Website Landing Page</td>
+            <td>Through the guide of The Odin Project, created a landing page for a ski blog website. I practiced how to create responsive websites using Flexbox</td>
+            <td><a href="https://github.com/jupycodes/odin-landing-page" class="button">view</a></td>
+        </tr>
+        <tr>
+            <td>Recipe Blog Website</td>
+            <td>I practiced creating my first ever website with multiple pages. A great introduction to HTML and CSS styling.</td>
+            <td><a href="https://github.com/jupycodes/odin-recipes" class="button">View</a></td>
+        </tr>
+        <tr>
+            <td>Python Loan Calculator</td>
+            <td>Created a Python program to automatically aspects of a loan repayment</td>
+            <td><a href="https://github.com/jupycodes/python-projects/tree/main/Loan%20Calculators" class="button">View</a></td>
+        </tr>
+        <tr>
+            <td>Python Chatbots</td>
+            <td>A series of chatbots using Python to understand more about machine learning algorithms and natural language processing</td>
+            <td><a href="https://github.com/jupycodes/python-projects/tree/main/Chatbots" class="button">View</a></td>
+        </tr>
+        <tr>
+            <td>App Academy Open Course</td>
+            <td>Worked my way through various exercises and challenges offered by App Academy. The course aims to teach students full stack development, starting by mastering the Ruby language</td>
+            <td><a href="https://github.com/jupycodes/ruby-projects" class="button">View</a></td>
+        </tr>
     
-
-
-
+    </table>
+    <br><br>
+    <p>If you have any questions or comments, I'd love to hear from you!</p>
+    <form>
+        <ul class="form-style">
+            <li><label>Name</label></li>
+            <li><input type="text" name="name" size="50" required></li>
+            <li><label>Age</label></li>
+            <li><input type="text" name="aage" size="50" required></li>
+            <li><label>Email</label></li>
+            <li><input type="text" name="email" size="50" required></li>
+            <li><label> Your Message</label></li>
+            <li><input type="text" name="message" size="50" id="message-box" required></li><br>
+            <li><input type="submit" value="Submit"></li>
+        </ul>
+    </form>
 
 </body>
 </html>
